@@ -11,13 +11,29 @@
       />
       <link
          rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+         href="https://unpkg.com/swiper@11/swiper-bundle.min.css"
       />
       <link rel="stylesheet" href="css/style.css" />
       <title>nakamo</title>
    </head>
    <body>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- prettier ignore-->
+      @@include('components/_header.html')
+      <!-- prettier ignore-->
+      @@include('components/_main.html')
+      <!-- prettier ignore-->
+      @@include('components/_section-menu.html')
+      <!-- prettier ignore-->
+      @@include('components/_services.html')
+      <!-- prettier ignore-->
+      @@include('components/_about-us.html')
+      <!-- prettier ignore-->
+      @@include('components/_testimonial.html')
+      <!-- prettier ignore-->
+      @@include('components/_subscription.html')
+      <!-- prettier ignore-->
+      @@include('components/_footer.html')
+      <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
       <script src="js/main.js"></script>
    </body>
 </html>

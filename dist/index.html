@@ -11,13 +11,712 @@
       />
       <link
          rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+         href="https://unpkg.com/swiper@11/swiper-bundle.min.css"
       />
       <link rel="stylesheet" href="css/style.css" />
       <title>nakamo</title>
    </head>
    <body>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- prettier ignore-->
+      <header class="header">
+   <div class="container">
+      <div class="header__wrapper">
+         <div class="header__logo">
+            <a href="#">
+               <img src="assets/img/logo.svg" alt="logo" />
+            </a>
+         </div>
+         <nav class="header__nav">
+            <ul class="header__list">
+               <li class="header__link">
+                  <a href="#">Home</a>
+               </li>
+               <li class="header__link">
+                  <a href="#">Menu</a>
+               </li>
+               <li class="header__link">
+                  <a href="#">Services</a>
+               </li>
+               <li class="header__link">
+                  <a href="#">About</a>
+               </li>
+               <li class="header__link">
+                  <a href="#">Contact</a>
+               </li>
+            </ul>
+         </nav>
+         <button class="header__btn button">SIGN IN</button>
+      </div>
+   </div>
+</header>
+
+      <!-- prettier ignore-->
+      <main class="main">
+   <div class="container">
+      <div class="main__wrapper">
+         <div class="main__content">
+            <p class="main__description">FOOD DELIVERY</p>
+            <h1 class="main__title">
+               Enjoy <span>Delicious</span> Food in your healty life
+            </h1>
+            <p class="main__subtitle">
+               Add joy <span>best taste</span> food for the moment and best
+               trying to tie in space you.
+            </p>
+            <button class="main__btn button">Order Now</button>
+         </div>
+         <div class="main__img">
+            <img src="assets/img/hero-food.png" alt="food" />
+            <div class="main-recall">
+               <div class="main-recall__img">
+                  <img src="assets/img/hero-emodji.svg" alt="emoji" />
+               </div>
+               <div class="main-recall__info">
+                  <p class="main-recall__title">Our Happy Customer</p>
+                  <div class="main-recall__rating">
+                     <div class="main-recall__star">
+                        <img src="assets/img/Star.svg" alt="star" />
+                     </div>
+                     <p class="main-recall__num">4.5</p>
+                     <p class="main-recall__text">Reviews</p>
+                  </div>
+               </div>
+            </div>
+            <div class="main__img--bg-blur">
+               <svg
+                  width="518"
+                  height="518"
+                  viewBox="0 0 518 518"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+               >
+                  <g filter="url(#filter0_f_1_266)">
+                     <circle
+                        cx="259"
+                        cy="259"
+                        r="159"
+                        fill="black"
+                        fill-opacity="0.37"
+                     />
+                  </g>
+                  <defs>
+                     <filter
+                        id="filter0_f_1_266"
+                        x="0"
+                        y="0"
+                        width="518"
+                        height="518"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                     >
+                        <feFlood
+                           flood-opacity="0"
+                           result="BackgroundImageFix"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in="SourceGraphic"
+                           in2="BackgroundImageFix"
+                           result="shape"
+                        />
+                        <feGaussianBlur
+                           stdDeviation="50"
+                           result="effect1_foregroundBlur_1_266"
+                        />
+                     </filter>
+                  </defs>
+               </svg>
+            </div>
+         </div>
+      </div>
+   </div>
+</main>
+
+      <!-- prettier ignore-->
+      <section class="section-menu">
+   <div class="container">
+      <div class="section-menu__wrapper">
+         <h2 class="section-menu__title section-title">MENU</h2>
+         <h3 class="section-menu__subtitle section-subtitle">
+            Our best seller
+         </h3>
+         <div class="section-menu__content">
+            <div class="section-menu__items">
+               <div class="section-menu-item">
+                  <div class="section-menu-item__img">
+                     <img src="assets/img/menu-img1.jpg" alt="menu1" />
+                  </div>
+                  <div class="section-menu-item__content">
+                     <div class="section-menu-item__desc">
+                        <div class="section-menu-item-desc-item">
+                           <div class="section-menu-item-desc-item__img">
+                              <img
+                                 src="assets/img/menu-dessert.svg"
+                                 alt="desert"
+                              />
+                           </div>
+                           <p class="section-menu-item-desc-item__title">
+                              Dessert
+                           </p>
+                        </div>
+                        <div class="section-menu-item-desc-item">
+                           <div class="section-menu-item-desc-item__img">
+                              <img
+                                 src="assets/img/menu-money.svg"
+                                 alt="money"
+                              />
+                           </div>
+                           <p class="section-menu-item-desc-item__title">
+                              Rp 25.000
+                           </p>
+                        </div>
+                     </div>
+                     <h3 class="section-menu-item__title">Kopi Susu Butter</h3>
+                     <p class="section-menu-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vitae, ut semper nulla magna fermentum interdum sed
+                        quis. At felis purus vulputate fermentum.
+                     </p>
+                     <button class="section-menu-item__btn button">
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div class="section-menu-item">
+                  <div class="section-menu-item__img">
+                     <img src="assets/img/menu-img2.jpg" alt="menu2" />
+                  </div>
+                  <div class="section-menu-item__content">
+                     <div class="section-menu-item__desc">
+                        <div class="section-menu-item-desc-item">
+                           <div class="section-menu-item-desc-item__img">
+                              <img
+                                 src="assets/img/menu-dessert.svg"
+                                 alt="desert"
+                              />
+                           </div>
+                           <p class="section-menu-item-desc-item__title">
+                              Snack
+                           </p>
+                        </div>
+                        <div class="section-menu-item-desc-item">
+                           <div class="section-menu-item-desc-item__img">
+                              <img
+                                 src="assets/img/menu-money.svg"
+                                 alt="money"
+                              />
+                           </div>
+                           <p class="section-menu-item-desc-item__title">
+                              Rp 8.000
+                           </p>
+                        </div>
+                     </div>
+                     <h3 class="section-menu-item__title">
+                        Roti Gembung Soklat
+                     </h3>
+                     <p class="section-menu-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vitae, ut semper nulla magna fermentum interdum sed
+                        quis.
+                     </p>
+                     <button class="section-menu-item__btn button">
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div class="section-menu-item">
+                  <div class="section-menu-item__img">
+                     <img src="assets/img/menu-img3.jpg" alt="menu3" />
+                  </div>
+                  <div class="section-menu-item__content">
+                     <div class="section-menu-item__desc">
+                        <div class="section-menu-item-desc-item">
+                           <div class="section-menu-item-desc-item__img">
+                              <img
+                                 src="assets/img/menu-dessert.svg"
+                                 alt="desert"
+                              />
+                           </div>
+                           <p class="section-menu-item-desc-item__title">
+                              Food
+                           </p>
+                        </div>
+                        <div class="section-menu-item-desc-item">
+                           <div class="section-menu-item-desc-item__img">
+                              <img
+                                 src="assets/img/menu-money.svg"
+                                 alt="money"
+                              />
+                           </div>
+                           <p class="section-menu-item-desc-item__title">
+                              Rp 28.000
+                           </p>
+                        </div>
+                     </div>
+                     <h3 class="section-menu-item__title">Nasi Gila Spesial</h3>
+                     <p class="section-menu-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vitae, ut semper nulla magna fermentum interdum sed
+                        quis. At felis purus vulputate fermentum.
+                     </p>
+                     <button class="section-menu-item__btn button">
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+      <!-- prettier ignore-->
+      <section class="services">
+   <div class="container">
+      <div class="services__wrapper">
+         <h2 class="services__title section-title">SERVICES</h2>
+         <h3 class="services__subtitle section-subtitle">
+            Our Awesome <br />
+            Services
+         </h3>
+         <div class="services__content">
+            <div class="services__items">
+               <div class="services-item">
+                  <div class="services-item__img">
+                     <img src="assets/img/services-heart.svg" alt="heart" />
+                  </div>
+                  <p class="services-item__title">No MSG Food</p>
+                  <p class="services-item__text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Vitae, ut semper nulla magna fermentum.
+                  </p>
+                  <button class="services-item__btn button">More</button>
+               </div>
+               <div class="services-item">
+                  <div class="services-item__img">
+                     <img src="assets/img/services-bike.svg" alt="bike" />
+                  </div>
+                  <p class="services-item__title">Free Shipping</p>
+                  <p class="services-item__text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Vitae, ut semper nulla magna fermentum.
+                  </p>
+                  <button class="services-item__btn button">More</button>
+               </div>
+               <div class="services-item">
+                  <div class="services-item__img">
+                     <img src="assets/img/services-bus.svg" alt="bus" />
+                  </div>
+                  <p class="services-item__title">Easy to Order</p>
+                  <p class="services-item__text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Vitae, ut semper nulla magna fermentum.
+                  </p>
+                  <button class="services-item__btn button">More</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+      <!-- prettier ignore-->
+      <section class="about-us">
+   <div class="container">
+      <div class="about-us__wrapper">
+         <div class="about-us__img">
+            <img src="assets/img/hero-food.png" alt="food" />
+            <div class="about-us__img--bg-blur">
+               <svg
+                  width="857"
+                  height="849"
+                  viewBox="0 0 857 849"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+               >
+                  <g filter="url(#filter0_f_1_294)">
+                     <ellipse
+                        cx="428.5"
+                        cy="424.5"
+                        rx="228.5"
+                        ry="224.5"
+                        fill="#EC605D"
+                        fill-opacity="0.44"
+                     />
+                  </g>
+                  <defs>
+                     <filter
+                        id="filter0_f_1_294"
+                        x="0"
+                        y="0"
+                        width="857"
+                        height="849"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                     >
+                        <feFlood
+                           flood-opacity="0"
+                           result="BackgroundImageFix"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in="SourceGraphic"
+                           in2="BackgroundImageFix"
+                           result="shape"
+                        />
+                        <feGaussianBlur
+                           stdDeviation="100"
+                           result="effect1_foregroundBlur_1_294"
+                        />
+                     </filter>
+                  </defs>
+               </svg>
+            </div>
+         </div>
+         <div class="about-us__content">
+            <h2 class="about-us__title section-title">ABOUT US</h2>
+            <h3 class="about-us__subtext section-subtitle">
+               Healthy meal for customer
+            </h3>
+            <p class="about-us__text">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+               urna, porttitor.
+            </p>
+            <button class="about-us__btn button">Read more</button>
+         </div>
+      </div>
+   </div>
+</section>
+
+      <!-- prettier ignore-->
+      <section class="testimonial">
+   <div class="container">
+      <div class="testimonial__wrapper">
+         <div class="testimonial__info">
+            <h2 class="testimonial__title section-title">TESTIMONIAL</h2>
+            <h3 class="testimonial__subtitle">
+               What Are People Saying <span>About Us</span>
+            </h3>
+            <p class="testimonial__text">
+               We are very happy if you are satisfied with our service and
+               products, let's read pure reviews from customers who bought our
+               products.
+            </p>
+            <div class="testimonial__slider-btns">
+               <div
+                  class="testimonial-slider__btn testimonial-slider__btn-left"
+               >
+                  <svg
+                     width="24"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                  >
+                     <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z"
+                        fill="white"
+                     />
+                  </svg>
+               </div>
+               <div
+                  class="testimonial-slider__btn testimonial-slider__btn-right"
+               >
+                  <svg
+                     width="16"
+                     height="16"
+                     viewBox="0 0 16 16"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                  >
+                     <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                        fill="white"
+                     />
+                  </svg>
+               </div>
+            </div>
+         </div>
+         <div class="testimonial__wrapper-slider">
+            <div class="swiper testimonial-slider">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="testimonial-slide">
+                        <div class="testimonial-slide__body">
+                           <div class="testimonial-slide__img">
+                              <img
+                                 src="assets/img/slider-img1.jpg"
+                                 alt="slide-1"
+                              />
+                           </div>
+                           <p class="testimonial-slide__title">Mumu Gomez</p>
+                           <p class="testimonial-slide__subtitle">Comedian</p>
+                           <div class="testimonial-slide__text">
+                              The salad is fresh!!! Don't ask about the sauce
+                              again, it's really delicious, it's going to be
+                              routine. I recommend this salad to all of you
+                              guys!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-slide">
+                        <div class="testimonial-slide__body">
+                           <div class="testimonial-slide__img">
+                              <img
+                                 src="assets/img/slider-img2.jpg"
+                                 alt="slide-2"
+                              />
+                           </div>
+                           <p class="testimonial-slide__title">Ken Arok</p>
+                           <p class="testimonial-slide__subtitle">Knight</p>
+                           <div class="testimonial-slide__text">
+                              The salad is fresh!!! Don't ask about the sauce
+                              again, it's really delicious, it's going to be
+                              routine. I recommend this salad to all of you
+                              guys!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-slide">
+                        <div class="testimonial-slide__body">
+                           <div class="testimonial-slide__img">
+                              <img
+                                 src="assets/img/slider-img3.jpg"
+                                 alt="slide-3"
+                              />
+                           </div>
+                           <p class="testimonial-slide__title">
+                              Isyana Sarasvati
+                           </p>
+                           <p class="testimonial-slide__subtitle">Singer</p>
+                           <div class="testimonial-slide__text">
+                              The salad is fresh!!! Don't ask about the sauce
+                              again, it's really delicious, it's going to be
+                              routine. I recommend this salad to all of you
+                              guys!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-slide">
+                        <div class="testimonial-slide__body">
+                           <div class="testimonial-slide__img">
+                              <img
+                                 src="assets/img/slider-img1.jpg"
+                                 alt="slide-1"
+                              />
+                           </div>
+                           <p class="testimonial-slide__title">Mumu Gomez</p>
+                           <p class="testimonial-slide__subtitle">Comedian</p>
+                           <div class="testimonial-slide__text">
+                              The salad is fresh!!! Don't ask about the sauce
+                              again, it's really delicious, it's going to be
+                              routine. I recommend this salad to all of you
+                              guys!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-slide">
+                        <div class="testimonial-slide__body">
+                           <div class="testimonial-slide__img">
+                              <img
+                                 src="assets/img/slider-img2.jpg"
+                                 alt="slide-2"
+                              />
+                           </div>
+                           <p class="testimonial-slide__title">Ken Arok</p>
+                           <p class="testimonial-slide__subtitle">Knight</p>
+                           <div class="testimonial-slide__text">
+                              The salad is fresh!!! Don't ask about the sauce
+                              again, it's really delicious, it's going to be
+                              routine. I recommend this salad to all of you
+                              guys!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-slide">
+                        <div class="testimonial-slide__body">
+                           <div class="testimonial-slide__img">
+                              <img
+                                 src="assets/img/slider-img3.jpg"
+                                 alt="slide-3"
+                              />
+                           </div>
+                           <p class="testimonial-slide__title">
+                              Isyana Sarasvati
+                           </p>
+                           <p class="testimonial-slide__subtitle">Singer</p>
+                           <div class="testimonial-slide__text">
+                              The salad is fresh!!! Don't ask about the sauce
+                              again, it's really delicious, it's going to be
+                              routine. I recommend this salad to all of you
+                              guys!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+      <!-- prettier ignore-->
+      <section class="subscription">
+   <div class="container">
+      <div class="subscription__wrapper">
+         <div class="subscription__content">
+            <h3 class="subscription__title">
+               Subscribe to get lastest news update
+            </h3>
+            <h4 class="subscription__subtitle">
+               We recommended you to subscribe to our newspaper, enter your
+               email below to get our daily update about us.
+            </h4>
+            <div class="subscription-input">
+               <label for="subscription"></label>
+               <input
+                  type="text"
+                  id="subscription"
+                  placeholder="Enter your email address"
+               />
+               <button>Subscribe now</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+      <!-- prettier ignore-->
+      <footer class="footer">
+   <div class="container">
+      <div class="footer__wrapper">
+         <div class="footer__columns">
+            <div class="footer-column">
+               <div class="footer-column__logo">
+                  <img src="assets/img/footer-logo.svg" alt="logo" />
+               </div>
+               <p class="footer-column__text">
+                  Nakamo is platform for ordering food and catering system
+                  easily. Its recomended for young moms.
+               </p>
+            </div>
+            <div class="footer-column">
+               <h5 class="footer-column__title">Feature</h5>
+               <ul class="footer-column__list">
+                  <li class="footer-column__link">
+                     <a href="#">Menu</a>
+                  </li>
+                  <li class="footer-column__link">
+                     <a href="#">Promo</a>
+                  </li>
+                  <li class="footer-column__link">
+                     <a href="#">Contact</a>
+                  </li>
+                  <li class="footer-column__link">
+                     <a href="#">About us</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-column">
+               <h5 class="footer-column__title">Get in Touch</h5>
+               <ul class="footer-column__list">
+                  <li class="footer-column__link">
+                     <img src="assets/img/footer-icon-lok.svg" alt="loc" />
+                     <p>Jl Lumajang, Kota <br />Malang. Jawa Timur</p>
+                  </li>
+                  <li class="footer-column__link">
+                     <img src="assets/img/footer-icon-mail.svg" alt="mail" />
+                     <a href="#">support@nakamo.com</a>
+                  </li>
+                  <li class="footer-column__link">
+                     <img src="assets/img/footer-icon-phone.svg" alt="phone" />
+                     <a href="#">+62 386-688-1234</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-column">
+               <h5 class="footer-column__title">Social Media</h5>
+               <ul class="footer-column__social-list">
+                  <li>
+                     <a href="#">
+                        <svg
+                           width="31"
+                           height="26"
+                           viewBox="0 0 31 26"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                        >
+                           <path
+                              d="M30.524 3.58244C29.4107 4.07578 28.2147 4.40911 26.9574 4.55978C28.2547 3.7835 29.2253 2.56173 29.688 1.12244C28.4692 1.84643 27.1352 2.35604 25.744 2.62911C24.8085 1.63026 23.5694 0.968212 22.2191 0.745742C20.8688 0.523273 19.4828 0.752832 18.2763 1.39878C17.0699 2.04473 16.1104 3.07093 15.5469 4.31805C14.9834 5.56517 14.8474 6.96344 15.16 8.29578C12.6903 8.17177 10.2742 7.52984 8.06859 6.41165C5.86299 5.29346 3.91715 3.72399 2.35736 1.80511C1.82403 2.72511 1.51736 3.79178 1.51736 4.92778C1.51676 5.95044 1.7686 6.95743 2.25053 7.85942C2.73246 8.76141 3.42957 9.53049 4.28003 10.0984C3.29373 10.0671 2.32919 9.80056 1.46669 9.32111V9.40111C1.46659 10.8354 1.96274 12.2256 2.87094 13.3358C3.77914 14.4459 5.04345 15.2077 6.44936 15.4918C5.5344 15.7394 4.57514 15.7759 3.64403 15.5984C4.04069 16.8326 4.81335 17.9118 5.85385 18.685C6.89434 19.4582 8.15058 19.8867 9.44669 19.9104C7.24647 21.6377 4.52921 22.5746 1.73203 22.5704C1.23653 22.5706 0.741461 22.5416 0.249359 22.4838C3.08866 24.3093 6.39381 25.2782 9.76936 25.2744C21.196 25.2744 27.4427 15.8104 27.4427 7.60244C27.4427 7.33578 27.436 7.06644 27.424 6.79978C28.6391 5.92108 29.6879 4.83297 30.5214 3.58644L30.524 3.58244Z"
+                              fill="white"
+                           />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg
+                           width="26"
+                           height="26"
+                           viewBox="0 0 26 26"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                        >
+                           <path
+                              d="M12.9999 8.83435C10.7062 8.83435 8.83431 10.7062 8.83431 13C8.83431 15.2937 10.7062 17.1656 12.9999 17.1656C15.2937 17.1656 17.1656 15.2937 17.1656 13C17.1656 10.7062 15.2937 8.83435 12.9999 8.83435ZM25.4937 13C25.4937 11.275 25.5093 9.5656 25.4124 7.84373C25.3156 5.84373 24.8593 4.06873 23.3968 2.60623C21.9312 1.1406 20.1593 0.687477 18.1593 0.590602C16.4343 0.493727 14.7249 0.509352 13.0031 0.509352C11.2781 0.509352 9.56868 0.493727 7.84681 0.590602C5.84681 0.687477 4.07181 1.14373 2.60931 2.60623C1.14368 4.07185 0.69056 5.84373 0.593685 7.84373C0.49681 9.56873 0.512435 11.2781 0.512435 13C0.512435 14.7219 0.49681 16.4344 0.593685 18.1562C0.69056 20.1562 1.14681 21.9312 2.60931 23.3937C4.07493 24.8594 5.84681 25.3125 7.84681 25.4093C9.57181 25.5062 11.2812 25.4906 13.0031 25.4906C14.7281 25.4906 16.4374 25.5062 18.1593 25.4093C20.1593 25.3125 21.9343 24.8562 23.3968 23.3937C24.8624 21.9281 25.3156 20.1562 25.4124 18.1562C25.5124 16.4344 25.4937 14.725 25.4937 13ZM12.9999 19.4093C9.45306 19.4093 6.59056 16.5469 6.59056 13C6.59056 9.4531 9.45306 6.5906 12.9999 6.5906C16.5468 6.5906 19.4093 9.4531 19.4093 13C19.4093 16.5469 16.5468 19.4093 12.9999 19.4093ZM19.6718 7.82498C18.8437 7.82498 18.1749 7.15623 18.1749 6.3281C18.1749 5.49998 18.8437 4.83123 19.6718 4.83123C20.4999 4.83123 21.1687 5.49998 21.1687 6.3281C21.1689 6.52474 21.1304 6.7195 21.0552 6.90122C20.9801 7.08294 20.8699 7.24806 20.7308 7.3871C20.5918 7.52615 20.4267 7.6364 20.2449 7.71154C20.0632 7.78667 19.8685 7.82522 19.6718 7.82498Z"
+                              fill="white"
+                           />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg
+                           width="32"
+                           height="32"
+                           viewBox="0 0 32 32"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                        >
+                           <g clip-path="url(#clip0_1_524)">
+                              <path
+                                 d="M16.102 3.99805H16.28C17.924 4.00405 26.254 4.06405 28.5 4.66805C29.179 4.85238 29.7977 5.21169 30.2943 5.71006C30.7909 6.20843 31.1481 6.82841 31.33 7.50805C31.532 8.26805 31.674 9.27405 31.77 10.312L31.79 10.52L31.834 11.04L31.85 11.248C31.98 13.076 31.996 14.788 31.998 15.162V15.312C31.996 15.7 31.978 17.528 31.834 19.432L31.818 19.642L31.8 19.85C31.7 20.994 31.552 22.13 31.33 22.966C31.1486 23.646 30.7917 24.2662 30.295 24.7647C29.7983 25.2631 29.1793 25.6223 28.5 25.806C26.18 26.43 17.362 26.474 16.14 26.476H15.856C15.238 26.476 12.682 26.464 10.002 26.372L9.662 26.36L9.488 26.352L9.146 26.338L8.804 26.324C6.584 26.226 4.47 26.068 3.496 25.804C2.81698 25.6204 2.19813 25.2616 1.70145 24.7635C1.20477 24.2654 0.847694 23.6456 0.666 22.966C0.444 22.132 0.296 20.994 0.196 19.85L0.18 19.64L0.164 19.432C0.0652952 18.0768 0.0105997 16.7188 0 15.36L0 15.116C0.004 14.686 0.02 13.2 0.128 11.56L0.142 11.354L0.148 11.25L0.164 11.042L0.208 10.522L0.228 10.314C0.324 9.27605 0.466 8.26805 0.668 7.51005C0.849387 6.83014 1.20632 6.20987 1.70303 5.71141C2.19973 5.21295 2.81874 4.85383 3.498 4.67005C4.472 4.41005 6.586 4.25005 8.806 4.15005L9.146 4.13605L9.49 4.12405L9.662 4.11805L10.004 4.10405C11.9074 4.04213 13.8116 4.00746 15.716 4.00005H16.102V3.99805ZM12.8 10.418V20.054L21.114 15.238L12.8 10.418Z"
+                                 fill="white"
+                              />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_1_524">
+                                 <rect width="32" height="32" fill="white" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <p class="footer__copy">©Copyright PT Maem Sejahtera</p>
+      </div>
+   </div>
+</footer>
+
+      <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
       <script src="js/main.js"></script>
    </body>
 </html>

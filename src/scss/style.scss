@@ -1,2 +1,12 @@
 @use '_reset';
 @use '_variables';
+@use '_global';
+
+@use 'components/header';
+@use 'components/main';
+@use 'components/section-menu';
+@use 'components/services';
+@use 'components/about-us';
+@use 'components/testimonial';
+@use 'components/subscription';
+@use 'components/footer';
